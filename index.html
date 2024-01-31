@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li><br>
+                <li><a href="#about">About</a></li><br>
+                <li><a href="#projects">Projects</a></li><br>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="SIVARAM_resume.pdf" target="_blank" class="resume-button">Download Resume</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <h1>I'm Nerusu Sivaram</h1>
+                <img src="profile.jpg" alt="Profile Picture">
+                <p>I have learnt various technologies like Python programming, C, HTML, CSS. Moreover, I'm skilled in using MS office suite and Google workspace and<br>
+                    I also gained hands-on experience by completing some projects in my graduation as well as by using my tech skills.
+                    
+                    I'm self driven person and an eager learner constantly striving to improve my skills.</p>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Education:</p>
+                <ul>
+                    <li>Bachelor of Technology in Computer science and Engineering March 2023</li>
+                    <li>SRM institute of science and technology , Chennai , Tamilnadu</li>
+                    <li>CGPA 8/10</li>
+                </ul>
+                <p>Skills:</p>
+                <UL>
+                    <li>Excel</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+                <p>Hobbies:</p>
+                <ul>
+                    <li>Playing Badminton</li>
+                    <li>Learning New Skills</li>
+                    <li>Travelling</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Classification of Telugu idiomatic sentences using deep learning model</h3>
+                    <img src="project1.jpg" alt="Project 1">
+                    <p>An attempt was made to categorize literals and idioms. When it comes to the automatic detection of idioms, several natural language processing (NLP) applications<br>
+                         such as information retrieval (IR), machine translation, and chatbots, present a significant challenge. <br>
+                        Pre-trained deep learning models, machine learning models and their ensemble models are utilized for a variety of text classification tasks.<br>
+                        The model is validated using a freshly compiled in-house dataset composed of idioms and literal expressions, total 1040 entries and having been annotated.
+                        </p>
+                </div>
+                <div class="project">
+                    <h3>Login Form</h3>
+                    <img src="project2.jpg" alt="Project 2">
+                    <p>HTML5 and CSS3 combine seamlessly to create a sleek and secure login form. Utilizing HTML5's semantic structure, the form captures user credentials<br>
+                         while CSS3 enhances the design with stylish layouts and responsive elements.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form" method="post" action="#">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
